@@ -16,7 +16,4 @@ MIT
 npm install
 
 npm run watch
-
-# add tests, make changes, pass tests ... then [ctrl+c]
-npm run publish
 ```
