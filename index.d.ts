@@ -17,7 +17,7 @@ export interface CreateClientOptions {
   retryOptions?: {
     interval?: number
   };
-  Promise?: Promise<any>;
+  Promise?: PromiseConstructor;
 }
 
 export interface RequestHandle {
