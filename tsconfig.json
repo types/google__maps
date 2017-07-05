@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es6"
+    ],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@google/maps": [
+        "."
+      ]
+    },
+    "outDir": "dist-spec",
+    "forceConsistentCasingInFileNames": true
+  },
+  "files": [
+    "index.d.ts"
+  ],
+  "include": [
+    "spec"
+  ]
+}

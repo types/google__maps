@@ -1,0 +1,42 @@
+{
+  "name": "@types/google__maps",
+  "version": "0.0.0",
+  "description": "Typings for @google/maps",
+  "main": "",
+  "typings": "index.d.ts",
+  "scripts": {
+    "lint": "tslint -p tsconfig.json --type-check *.ts **/*.ts",
+    "test": "rimraf dist-spec && tsc && ava",
+    "watch": "rimraf dist-spec && node scripts/watch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/types/google__maps.git"
+  },
+  "keywords": [
+    "typings"
+  ],
+  "author": "Unional <homawong@gmail.com> (http://github.com/unional)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/types/google__maps/issues"
+  },
+  "homepage": "https://github.com/types/google__maps#readme",
+  "ava": {
+    "files": [
+      "dist-spec/**/*.spec.js"
+    ],
+    "source": [
+      "dist-spec/**/*.js",
+      "*.json"
+    ]
+  },
+  "devDependencies": {
+    "@google/maps": "^0.4.2",
+    "ava": "^0.20.0",
+    "dtslint": "^0.1.2",
+    "rimraf": "^2.6.1",
+    "tslint": "^5.4.3",
+    "typescript": "^2.4.1"
+  }
+}
