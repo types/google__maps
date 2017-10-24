@@ -34,7 +34,7 @@
   "devDependencies": {
     "@google/maps": "^0.4.2",
     "ava": "^0.21.0",
-    "dtslint": "^0.1.2",
+    "dtslint": "^0.2.0",
     "rimraf": "^2.6.1",
     "tslint": "^5.4.3",
     "typescript": "^2.4.1"
