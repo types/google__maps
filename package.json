@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@google/maps": "^0.4.2",
-    "ava": "^0.22.0",
+    "ava": "^0.24.0",
     "dtslint": "^0.1.2",
     "rimraf": "^2.6.1",
     "tslint": "^5.4.3",
