@@ -9,6 +9,14 @@ The type definition for [`@google/maps`](https://github.com/googlemaps/google-ma
 
 MIT
 
+## Quickstart
+
+installiation:
+`npm install @types/google__maps`
+
+To use it in typeScript files:
+`import { GoogleMapsClient } from '@google/maps';`
+
 ## Contributing
 
 ```sh
