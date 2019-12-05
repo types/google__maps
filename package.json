@@ -5,7 +5,7 @@
   "main": "",
   "typings": "index.d.ts",
   "scripts": {
-    "lint": "tslint -p tsconfig.json --type-check *.ts **/*.ts",
+    "lint": "eslint --ext=js,ts .",
     "test": "rimraf dist-spec && tsc && ava",
     "watch": "rimraf dist-spec && node scripts/watch.js"
   },
@@ -32,11 +32,12 @@
     ]
   },
   "devDependencies": {
-    "@google/maps": "^0.4.2",
-    "ava": "^0.24.0",
-    "dtslint": "^0.1.2",
-    "rimraf": "^2.6.1",
-    "tslint": "^5.4.3",
-    "typescript": "^2.4.1"
+    "@google/maps": "^1.0.2",
+    "ava": "^2.4.0",
+    "dtslint": "^2.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-harmony": "^3.0.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.3"
   }
 }
